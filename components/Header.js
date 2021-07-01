@@ -1,10 +1,27 @@
 import React from 'react';
-import {Text} from 'react-native'
+import {Text, View} from 'react-native'
 
-const Header = () => {
+const Header = (props) => {
+    const {textStyling, viewStyle} = styles;
+
     return (
-        <Text>Cars</Text>
+        <View style={viewStyle}>
+            <Text style={textStyling}>{props.title}</Text>
+        </View>
     )
+}
+
+const styles = {
+    textStyling: {
+        fontSize: 22
+    },
+    viewStyle: {
+        backgroundColor: 'gainsboro',
+        height: 70,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingTop: 25,
+    }
 }
 
 export default Header;
