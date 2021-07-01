@@ -7,11 +7,12 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            <Text>{focusSubject} ? (
-                <Text>Here is where Im going to build a timer</Text>
-                ) : (
-                <Focus/>
-                )}</Text>
+            {/*<Text>{focusSubject} ? (*/}
+            {/*    <Text>Here is where Im going to build a timer</Text>*/}
+            {/*    ) : (*/}
+
+            {/*    )}</Text>*/}
+            <Focus/>
         </View>
     );
 }
