@@ -34,5 +34,7 @@ const styles = StyleSheet.create({
     inputContainer: {
         paddingTop: 20,
         flexDirection: "row",
+        alignItems: 'center',
     }
 })
+
