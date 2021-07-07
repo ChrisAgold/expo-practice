@@ -5,8 +5,8 @@ function WelcomeScreen() {
     return (
         <ImageBackground
             style={styles.background}
-            source={require("../app/assets/tea.jpeg")}
-        >
+            source={require("../app/assets/tea.jpeg")}>
+
             <View style={styles.logoContainer}>
                 <Image style={styles.logo} source={require('../app/assets/icon.png')}/>
                 <Text>Drink Tea</Text>
