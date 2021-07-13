@@ -8,13 +8,8 @@ export default function App() {
     // const [focusSubject, setFocusSubject] = useState(null)
 
     return (
-        <View style={{
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-        }}>
-            {/*<ViewImageScreen/>*/}
-            <AppButton title="Login"  onPress={() => console.log("Pressed")}/>
-        </View>
+
+           <WelcomeScreen/>
+
     );
 }
