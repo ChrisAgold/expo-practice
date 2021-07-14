@@ -11,7 +11,7 @@ function WelcomeScreen() {
 
             <View style={styles.logoContainer}>
                 <Image style={styles.logo} source={require('../app/assets/icon.png')}/>
-                <Text style={styles.tagline}>Drink Tea</Text>
+                <Text style={styles.tagline}>Hello</Text>
             </View>
             <View style={styles.buttonsContainer}>
                 <AppButton title="Login"/>
