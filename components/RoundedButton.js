@@ -26,7 +26,6 @@ const styles = (size) =>
             borderWidth: 2,
         },
         text: { color: "white", fontSize: size / 3 },
-
     })
 
 
